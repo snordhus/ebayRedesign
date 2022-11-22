@@ -1,0 +1,216 @@
+@media only screen and (max-width: 1200px) {
+    #sidebar {
+     visibility: hidden;
+    }
+    .trivial{
+        max-width: 0%;
+        position: absolute;
+        visibility: hidden;
+        
+    }
+    
+    #topbat{
+        min-width: 100%;
+    }
+    .offLeft{
+        margin-left: 0rem;
+    }   
+  }
+  @media only screen and (max-width: 1200px) and (min-width: 768px)  {
+    #bodyRow{
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+    #jobsContainer p{
+        background-color: white;
+        
+    }
+    #jobsText{
+        border-bottom: 15rem solid;
+        border-color: white;
+    }
+  }
+  @media only screen and (max-width: 978px) {
+    .trivial2{
+        max-width: 0%;
+        position: fixed;
+        visibility: hidden;
+    }
+    form input{
+       max-width: 12rem;
+        text-align: center;
+    }
+  }
+    @media only screen and (max-width: 790px) {
+        .trivial3{
+            max-width: 0%;
+            position: fixed;
+            visibility: hidden;
+        }
+    }
+    /* Elimitates bootstrap wrapping */
+  @media (max-width: 767px) {
+    .row .span9 {
+        float:left;
+        width:68%;
+    }
+    .row .span3 {
+        float:left;
+        width:28%;
+    }
+    .container{
+        min-width: 100%;
+        padding-left: 2rem;
+    }
+}
+.sticky-top .col-auto~.col-auto, .sticky-top .col-1{
+    padding-top: .75rem;
+}
+.offLeft{
+    margin-left: 5rem;
+}
+.container{
+    width: 100%;
+}
+.logo{
+    width:10rem;
+}
+.icon{
+    height: 1.5rem;
+}
+form input{
+    padding-left: 1rem;
+    margin-right: .25rem;
+    text-align: left;
+    width: 30rem;
+}
+.greyA{
+    color: rgb(37, 37, 37);
+}
+.sticky-top{
+    background-color: white;
+    padding-top: .5rem;
+}
+#sidebar{
+    position:fixed;
+    margin-left: 70%;
+    border: 1px;
+    border-color: #8888888c;
+    border-style: groove;
+    box-shadow: 5px 10px 8px #888888;
+    margin-top: 1rem;
+    min-width: 15rem;
+ 
+}
+#sidebar .col-7{
+    padding-left: 2rem;
+}
+#bodyRow{
+    border: 0px solid black;
+    margin-top: 1rem;
+}
+.medImage{
+    width: 120%;
+}
+.medLrgImage{
+    width: 120%;
+}
+#flashDeals{
+    border: 1px solid black;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+.seeAll{
+    margin-right: 1rem;
+}
+#dealsHead{
+    vertical-align: auto;
+    padding-bottom: .5rem;
+}
+#jobsContainer{
+    position:relative;
+    margin-top: 2rem;
+}
+#jobsImage{
+    width:100%
+}
+#jobsText{
+    background-color: white;
+    position: absolute;
+    left:60%;
+    top:20%;
+    height:70%;
+    padding-top: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+#jobsText p{
+    margin-left: 1.25rem;
+}
+#jobsText button{
+    margin-top: 2rem;
+    margin-left: 30%;
+}
+.watchedHead{
+    padding-left: 1rem;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+}
+.watchedHead h3{
+    border-bottom-width: 4px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(255, 0, 0), rgb(15, 167, 255)) 1;
+
+}
+.smallImg{
+    width:7rem;
+}
+#recentViewed{
+    padding-top:2rem;
+}
+#sellLeft{
+    background-color: lightskyblue;
+    padding-top: .5rem;
+}
+#sellLeft p{
+    text-align: center;
+}
+#sellContainer{
+    margin-top: 4rem;
+}
+#sellRight{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#sellRight img{
+    width: 105%;
+    height:fit-content;
+    height: 100%;
+}
+.botBar{
+    border-top: 1px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: groove;
+    width:100%;
+    background-color: rgb(226, 226, 226);
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.botBar a{
+    color: rgb(37, 37, 37);
+    text-decoration: underline;
+    
+}
